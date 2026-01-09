@@ -1,0 +1,5 @@
+---
+description: 生成执行powershell命令行时
+alwaysApply: false
+---
+不能使用cd gasa-ui && npm run dev，因为 && 语法不支持，请使用cd gasa-ui; npm run dev
